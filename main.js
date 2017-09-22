@@ -1,23 +1,26 @@
 console.log("ready!");
 
 let horseOne = document.getElementById('brownHorse');
+let oneMove = 0;
 let horseTwo = document.getElementById('blackHorse');
+let twoMove = 0;
+
 
 document.addEventListener("keydown", function(event) {
 	switch (event.key) {
 		case "Escape" :
-		console.log("Brown horse moves");
-			horseOne.style.left= "50px";
-	}
-});
+			console.log("Brown horse moves");
+			oneMove += 5;
+			horseOne.style.paddingLeft = oneMove + "%";	
+			break;
 
-document.addEventListener("keydown", function(event) {
-	switch (event.key) {
 		case "ArrowRight" :
 			console.log("Black horse moves");
-			horseTwo.style.left= "50px";
+			twoMove += 5;
+			horseTwo.style.paddingLeft = twoMove + "%";
 			break;
 	}
 });
 
-//The click function works but the style.left doesn't and I haven't figured out why yet. //
+
+//So now I have it "moving" but not really. Still working on it//
