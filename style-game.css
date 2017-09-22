@@ -18,7 +18,7 @@ header {
 	padding-top: 130px;
 }
 
-.brownHorse {
+#brownHorse {
 	background-color: #94390C;
 	height: 60px;
 	width: 60px;
@@ -26,7 +26,7 @@ header {
 	position: relative;
 }
 
-.blackHorse {
+#blackHorse {
 	background-color: #000000;
 	height: 60px;
 	width: 60px;
