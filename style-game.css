@@ -1,0 +1,63 @@
+/* ////////////////        GAME.HTML     ///////////////////*/
+
+body {
+	background-image: url("images/horses.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #FFFFFF;
+	font-family: 'VT323', monospace;
+	height: 600px;
+}
+
+header {
+	font-size: 60px;
+	width: 50%;
+}
+
+.track {
+	padding-top: 130px;
+}
+
+.brownHorse {
+	background-color: #94390C;
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	position: relative;
+}
+
+.blackHorse {
+	background-color: #000000;
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	position: relative;
+}
+
+/* Finish line*/
+.finish {
+	float: right;
+	text-orientation: upright;
+	writing-mode: vertical-rl;
+	font-size: 70px;
+	background-color: #FF0000;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
+
+/*for ipad */
+@media (max-width: 1024px) {
+	body {
+		background-color: #2CEB46;
+	}
+
+	header {
+		font-size: 40px;
+	}
+
+	.finish {
+		background-color: #2C33EB;
+	}
+}

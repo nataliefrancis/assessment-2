@@ -1,0 +1,61 @@
+/*You can find the screen shot of the "landing page" I used in my images folder*/
+
+
+/*////////////         INDEX.HTML     ///////////////*/
+
+body {
+	background-image: url("images/horses.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #FFFFFF;
+	font-family: 'VT323', monospace;
+}
+
+/*Header*/
+h1 {
+	text-align: right;
+	font-size: 60px
+}
+
+/*Rules, left side*/
+#rules {
+	font-size: 25px;
+	width: 350px;
+	height: 300px;
+	float: left;
+	color: #2735F3;
+}
+ 
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*Quote under heading*/
+#quote {
+	width: 400px;
+	float: right;
+	font-size: 20px;
+	color: #F7FC7A;
+}
+
+/*Home and Game menu at bottom*/
+nav {
+	clear: left;
+	float: right;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	display: inline;
+	width: 50%;
+	text-align: center;
+}
+
+.links {
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+/* /////////////////       END, INDEX.HTML     ///////////////////*/
+
