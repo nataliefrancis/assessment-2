@@ -24,6 +24,9 @@ h1 {
 	height: 300px;
 	float: left;
 	color: #2735F3;
+	border: 5px solid #2735F3;
+	background-color: #E0E1E4;
+	border-radius: 75px;
 }
  
 h2 {
